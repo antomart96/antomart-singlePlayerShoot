@@ -3,9 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/9823a17fbf.js" crossorigin="anonymous"></script> 
+    <!-- css -->
+    <link rel="stylesheet" href="styles/style.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <!-- <i class="fa-solid fa-crosshairs"></i> -->
+    <nav>
+       <div id="barre-temps">Time : <span id="temps">3</span></div>
+       <div id="barre-hit">Hit : <span id="hit">0</span></div>
+       <div id="barre-score">Score : <span id="score">0</span></div>
+       <section id="affichageScore">
+            <p>Game Over! Your final score : <span id="finalScore"></span></p>
+            <button>Retry</button>
+        </section>
+    </nav>
+    <section id="mainSection">
+        <button id="target"> <i class="fa-solid fa-bullseye"></i> </button>
+    </section>
+    <script src="javascripts/script.js"></script>
 </body>
 </html>
